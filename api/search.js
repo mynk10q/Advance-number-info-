@@ -33,10 +33,7 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
-    res.json({
-      status: true,
-      result: data
-    });
+    res.json(data);
 
   } catch (e) {
 
