@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        token: "6621836125:mOIZTac9",
+        token: "6516759006:ZwpYHS61",
         request: term,
         limit: 100,
         lang: "en"
